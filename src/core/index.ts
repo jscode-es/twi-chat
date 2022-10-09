@@ -23,11 +23,11 @@ class twichat extends fetching {
 	}
 
 	async getInfoUser(name: string) {
-		return await this.dataFetch(`users?login=${name}`)
+		return await this.getData(`users?login=${name}`)
 	}
 
 	async getChannelById(id: string) {
-		return await this.dataFetch(`channels?broadcaster_id=${id}`)
+		return await this.getData(`channels?broadcaster_id=${id}`)
 	}
 
 }

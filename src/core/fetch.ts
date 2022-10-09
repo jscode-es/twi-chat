@@ -49,7 +49,7 @@ class fetching extends chat {
 		return json
 	}
 
-	async dataFetch(endpoint: string) {
+	protected async getData(endpoint: string) {
 
 		const { CLIENT_ID } = process.env
 
