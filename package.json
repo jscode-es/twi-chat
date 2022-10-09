@@ -1,6 +1,6 @@
 {
 	"name": "js-twichat",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Manage all the events that occur in your twitch direct",
 	"main": "jest.config.js",
 	"directories": {
