@@ -13,7 +13,6 @@ class chat extends EventEmitter {
 
 	constructor() {
 		super()
-		//this.listener()
 	}
 
 	async sendFetch(endpoint: string, data: TypeData = {}) {
